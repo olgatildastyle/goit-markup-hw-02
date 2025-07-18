@@ -101,7 +101,7 @@ letter-spacing: 0.02em;
 background: #f4f4fd;
 }
 
-.team-main-title {
+.team-main-title, .portfolio-main-title {
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -109,44 +109,28 @@ text-align: center;
 color: #2e2f42;
 }
 
-.team-title {
+.team-title, .portfolio-title {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
+}
+
+.team-title {
 text-align: center;
-color: #2e2f42;
 }
 
 .team-card {
 background: #fff;
 }
 
+.team-text, .portfolio-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
 .team-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
 text-align: center;
-}
-
-.portfolio-main-title {
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-}
-
-.portfolio-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
-
-.portfolio-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
 }
 
 .page-footer {
